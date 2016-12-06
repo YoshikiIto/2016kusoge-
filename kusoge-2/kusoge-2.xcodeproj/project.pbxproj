@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16BBFB001DF6FE2A002DE91F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BBFAFF1DF6FE2A002DE91F /* AppDelegate.swift */; };
+		16BBFB021DF6FE2A002DE91F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BBFB011DF6FE2A002DE91F /* ViewController.swift */; };
+		16BBFB051DF6FE2A002DE91F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16BBFB031DF6FE2A002DE91F /* Main.storyboard */; };
+		16BBFB071DF6FE2A002DE91F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16BBFB061DF6FE2A002DE91F /* Assets.xcassets */; };
+		16BBFB0A1DF6FE2A002DE91F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16BBFB081DF6FE2A002DE91F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16BBFAFC1DF6FE2A002DE91F /* kusoge-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kusoge-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BBFAFF1DF6FE2A002DE91F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16BBFB011DF6FE2A002DE91F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16BBFB041DF6FE2A002DE91F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16BBFB061DF6FE2A002DE91F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16BBFB091DF6FE2A002DE91F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16BBFB0B1DF6FE2A002DE91F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16BBFAF91DF6FE2A002DE91F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16BBFAF31DF6FE2A002DE91F = {
+			isa = PBXGroup;
+			children = (
+				16BBFAFE1DF6FE2A002DE91F /* kusoge-2 */,
+				16BBFAFD1DF6FE2A002DE91F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16BBFAFD1DF6FE2A002DE91F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16BBFAFC1DF6FE2A002DE91F /* kusoge-2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16BBFAFE1DF6FE2A002DE91F /* kusoge-2 */ = {
+			isa = PBXGroup;
+			children = (
+				16BBFAFF1DF6FE2A002DE91F /* AppDelegate.swift */,
+				16BBFB011DF6FE2A002DE91F /* ViewController.swift */,
+				16BBFB031DF6FE2A002DE91F /* Main.storyboard */,
+				16BBFB061DF6FE2A002DE91F /* Assets.xcassets */,
+				16BBFB081DF6FE2A002DE91F /* LaunchScreen.storyboard */,
+				16BBFB0B1DF6FE2A002DE91F /* Info.plist */,
+			);
+			path = "kusoge-2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16BBFAFB1DF6FE2A002DE91F /* kusoge-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16BBFB0E1DF6FE2A002DE91F /* Build configuration list for PBXNativeTarget "kusoge-2" */;
+			buildPhases = (
+				16BBFAF81DF6FE2A002DE91F /* Sources */,
+				16BBFAF91DF6FE2A002DE91F /* Frameworks */,
+				16BBFAFA1DF6FE2A002DE91F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kusoge-2";
+			productName = "kusoge-2";
+			productReference = 16BBFAFC1DF6FE2A002DE91F /* kusoge-2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16BBFAF41DF6FE2A002DE91F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = YoshikiIto;
+				TargetAttributes = {
+					16BBFAFB1DF6FE2A002DE91F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 85LFZF26P5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 16BBFAF71DF6FE2A002DE91F /* Build configuration list for PBXProject "kusoge-2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16BBFAF31DF6FE2A002DE91F;
+			productRefGroup = 16BBFAFD1DF6FE2A002DE91F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16BBFAFB1DF6FE2A002DE91F /* kusoge-2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16BBFAFA1DF6FE2A002DE91F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BBFB0A1DF6FE2A002DE91F /* LaunchScreen.storyboard in Resources */,
+				16BBFB071DF6FE2A002DE91F /* Assets.xcassets in Resources */,
+				16BBFB051DF6FE2A002DE91F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16BBFAF81DF6FE2A002DE91F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BBFB021DF6FE2A002DE91F /* ViewController.swift in Sources */,
+				16BBFB001DF6FE2A002DE91F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16BBFB031DF6FE2A002DE91F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16BBFB041DF6FE2A002DE91F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16BBFB081DF6FE2A002DE91F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16BBFB091DF6FE2A002DE91F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16BBFB0C1DF6FE2A002DE91F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16BBFB0D1DF6FE2A002DE91F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16BBFB0F1DF6FE2A002DE91F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85LFZF26P5;
+				INFOPLIST_FILE = "kusoge-2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yoshiki.ito.kusoge-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		16BBFB101DF6FE2A002DE91F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85LFZF26P5;
+				INFOPLIST_FILE = "kusoge-2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yoshiki.ito.kusoge-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16BBFAF71DF6FE2A002DE91F /* Build configuration list for PBXProject "kusoge-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BBFB0C1DF6FE2A002DE91F /* Debug */,
+				16BBFB0D1DF6FE2A002DE91F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16BBFB0E1DF6FE2A002DE91F /* Build configuration list for PBXNativeTarget "kusoge-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BBFB0F1DF6FE2A002DE91F /* Debug */,
+				16BBFB101DF6FE2A002DE91F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16BBFAF41DF6FE2A002DE91F /* Project object */;
+}
