@@ -51,9 +51,9 @@ class ViewController: UIViewController {
 
 
     @IBAction func tapStart(_ sender: Any) {
-        timer0 = Timer.scheduledTimer(timeInterval: 0.031, target: self, selector: #selector(ViewController.update0), userInfo: nil, repeats: true)
-        timer1 = Timer.scheduledTimer(timeInterval: 0.033, target: self, selector: #selector(ViewController.update1), userInfo: nil, repeats: true)
-        timer2 = Timer.scheduledTimer(timeInterval: 0.032, target: self, selector: #selector(ViewController.update2), userInfo: nil, repeats: true)
+        timer0 = Timer.scheduledTimer(timeInterval: 0.131, target: self, selector: #selector(ViewController.update0), userInfo: nil, repeats: true)
+        timer1 = Timer.scheduledTimer(timeInterval: 0.133, target: self, selector: #selector(ViewController.update1), userInfo: nil, repeats: true)
+        timer2 = Timer.scheduledTimer(timeInterval: 0.132, target: self, selector: #selector(ViewController.update2), userInfo: nil, repeats: true)
         isRunning0 = true
         isRunning1 = true
         isRunning2 = true
